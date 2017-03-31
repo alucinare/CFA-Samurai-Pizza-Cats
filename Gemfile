@@ -32,6 +32,22 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Authentication
+gem 'devise'
+# https://github.com/plataformatec/devise
+
+# Role management
+gem 'rolify'
+# https://github.com/RolifyCommunity/rolify
+
+# Autherisation
+gem 'pundit'
+# https://github.com/elabs/pundit
+
+# Styling with materialise
+gem 'materialize-sass'
+# https://github.com/mkhairi/materialize-sass
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
