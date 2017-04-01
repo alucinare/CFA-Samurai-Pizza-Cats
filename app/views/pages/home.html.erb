@@ -2,6 +2,8 @@
 <p>This is a forum for enthusiats of SPC. Here you can share your love of SPC with other enthusiats! Enjoy!</p>
 <!-- this will be 2 massive squares in the center of the screen so the person is given 2 basic options -->
 <ul>
-  <li>Link to Shared Forum Posts</li>
-  <li>Link to Sign Up</li>
+  <li><%= link_to 'Public Posts', posts_path %></li>
+  <li><%= link_to 'Forums', boards_index_path %></li>
+  <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+  <li><%= link_to 'Sign In', new_user_session_path %></li>
 </ul>

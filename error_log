@@ -1,0 +1,14 @@
+ERROR LOG
+
+PROBLEM
+I started to make a post and I put the user id into the User section and I got this error:
+- 1: error prohibited this post from being saved:
+User must exist
+
+SOLUTION
+There was no user to assign a post to.
+- Create a user
+
+
+PROBLEM
+This is a test to see if the board number is added to this comment. If it is then I may be able to show all the comments that are created on this page, on this actual page instead of on the posts page. The post is actually created, however, the insertion of the number in the board_num field of posts isn't working because the create action in the posts controller makes it nil!

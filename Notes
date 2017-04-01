@@ -1,0 +1,11 @@
+Authentication
+- Identify a user and register if needed
+- Gem: Devise
+
+Role MGMT
+- Managing which roles an authenticated user has.
+- Gem: Rolify
+
+Authorisation
+- Managing what a particular role can do/has access to.
+- Gem: Pundit
